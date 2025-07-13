@@ -94,7 +94,7 @@ exports.signin = (req, res) =>
                 }
             var token = jwt.sign({ id: user.id }, config.secret,
                 {
-                    expiresIn : 86400  // Token will expires is 1000 milisecond
+                    expiresIn : 86400  // Token will expires is 86400 milisecond
                 })
 
                 // hashing is done on password only
