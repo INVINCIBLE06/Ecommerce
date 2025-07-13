@@ -33,6 +33,10 @@ function init()
 			name : "Vegetables",
         	description : "This category contains Vegetables"
 		},
+		{
+			name : "Beauty",
+			description : "This category contains all the beauty related products"
+		}
     ]
 	var productData =
 	[
